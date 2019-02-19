@@ -34,7 +34,7 @@ class Register extends React.Component {
 		})
 			.then(response => response.json())
 			.then(user => {
-				if (user) {
+				if (user.id) {
 					this.props.loadUser(user);
 					this.props.onRouteChange('home');
 				}
@@ -57,7 +57,6 @@ class Register extends React.Component {
 				        id="name"
 				        onChange={this.onNameChange}
 				        />
-				        }
 				      </div>
 				      <div className="mt3">
 				        <label className="db fw6 lh-copy f6" htmlFor="email-address">Email</label>
