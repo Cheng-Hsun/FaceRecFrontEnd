@@ -1,3 +1,7 @@
+This is a face recognition web with a login system using Clarifai API.
+
+https://smart-brain-by-rex.herokuapp.com
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
